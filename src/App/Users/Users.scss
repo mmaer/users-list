@@ -1,0 +1,22 @@
+.users {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    text-align: center;
+  }
+
+  &__input {
+    border: 1px solid #000;
+    height: 18px;
+    font-size: 14px;
+    padding: 0 3px;
+  }
+
+  &__list {
+    color: #808080;
+    padding-left: 0;
+    list-style-position: inside;
+  }
+}

@@ -1,0 +1,17 @@
+.message {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0;
+
+  &--error {
+    color: #ff0000;
+  }
+
+  &--loading {
+    color: #00ff00;
+  }
+
+  &--info {
+    color: #0000ff;
+  }
+}
